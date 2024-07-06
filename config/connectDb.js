@@ -6,7 +6,6 @@ const connectDb = async () => {
         await mongoose.connect('mongodb://127.0.0.1:27017/expenseApp',{
             useNewUrlParser: true,
             useUnifiedTopology: true,
-            useCreateIndex: true,
         });
         console.log(`server running on ${mongoose.connection.host}`.bgCyan.white);
     }
