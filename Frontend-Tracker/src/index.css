@@ -1,0 +1,48 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.content{
+  height: 100vh;
+}
+
+.navbar {
+  background-color: rgb(164, 180, 240) !important;
+}
+
+.register-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.filters{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  box-shadow: 0 0 3px gray;
+}
+
+
+.anticon svg{
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.active-icon{
+  color: black;
+}
+
+.inactive-icon{
+  color: rgb(142, 224, 18);
+}
+
+.switch-icon{
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
